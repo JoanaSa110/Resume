@@ -1,24 +1,23 @@
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet">
-		<title>Joana's Resume'</title>
+		<title>Joana's Resume</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 	</head>
 
 	<body>
+        <div class="container">
 		<header id="header">
 			<!-- resume header with your name and title -->
 			<h1><b>Joana</b> Sá</h1>
-			<hr>
-			Backend Developer
-			<hr>
+			<hr>Backend Developer<hr>
 		</header>
 		<main>
 			<article id="mainLeft">
 				<section>
                     <img src="img/foto.jpg" alt="Joana" width="200" height="186">
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
+					<h2><span class="badge bg-primary" style="margin-top: 10%;">CONTACTS</span></h2>
                     <p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:j_bmota@msn.com">j_bmota@msn.com</a>
@@ -33,13 +32,11 @@
                     </p>
 				</section>
 				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills AKA "buzzwords" -->
+					<h2><span class="badge bg-primary">SKILLS</span></h2>
                     <p>PHP(Laravel), Postgres, MySql, Google Cloud Platform, Firebase Realtime Database, HTML, CSS, GitHub, VS Code</p>
 				</section>
 				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
+					<h2><span class="badge bg-primary">EDUCATION</span></h2>
                     <b>Computer Engineering Degree</b>
                     <p>
                         Universidade Autónoma de Lisboa
@@ -47,20 +44,18 @@
                     <p>
                         2017-2020
                     </p>
-				</section>            
+				</section>
 			</article>
 			<article id="mainRight">
 				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
+					<h2><span class="badge bg-info">ABOUT</span></h2>
 					<p>As soon as I realized that military life wouldn't be what I was expecting, I decided to enroll in college in my second area of preference, computer science. 
                         I managed to complete the degree in three years, on a studentworker basis. 
                         I started my career in the IT area at the end of 2020. 
                     </br>I don't have a lot of experience, but I really want to learn more and more.</p>
 				</section>
 				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
+					<h2><span class="badge bg-info">WORK EXPERIENCE</span></h2>
                     <h3><b>Backend Developer</b></h3>
                     <p>
                             Decskill - EDP | 2021 - Now
@@ -96,5 +91,8 @@
 				</section>
 			</article>
 		</main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 	</body>
 </html>
