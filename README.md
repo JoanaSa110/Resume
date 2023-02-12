@@ -2,4 +2,4 @@
 
 My resume using HTML, CSS and Bootstrap.
 
-https://joanasa110.github.io/resume/
+https://joanasa110.github.io/Resume/
